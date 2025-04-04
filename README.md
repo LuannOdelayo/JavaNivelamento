@@ -1,2 +1,2 @@
 # JavaNivelamento
-Exercícios de java
+Exercícios básicos de java
