@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ex3 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int numero = sc.nextInt();
+        int hora = sc.nextInt();
+        double valorHora = sc.nextDouble();
+        double salario = hora * valorHora;
+
+        System.out.printf("Seu número é: %d%n", numero);
+        System.out.printf("Seu salário é R$%.2f%n", salario);
+        
+        sc.close();
+    }
+}
