@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+
+            double altura = sc.nextDouble();
+            double largura = sc.nextDouble();
+            double metroQuadrado = sc.nextDouble();
+
+            double area = altura * largura;
+            double precoMetro = area *metroQuadrado;
+
+            System.out.printf("A aréa é: %.2f metros quadrados%n", area);
+            System.out.printf("O preço total é de: %.2f%n", precoMetro);
+
+            sc.close();
+        }
+    }
